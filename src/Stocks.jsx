@@ -3,7 +3,7 @@ import { useAuth0 } from '@auth0/auth0-react';
 import LoginButton from "./components/LoginButton";
 import LogoutButton from "./components/LogoutButton";
 
-const BASE_URL = "http://15.228.236.37:8080";
+const BASE_URL = "/api";
 
 
 export default function StocksApp() {
